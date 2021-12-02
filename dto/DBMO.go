@@ -29,7 +29,7 @@ func (dbf DBFile) ReadFile() {
 	switch dbf.FileName {
 	case "student.json":
 		dbf.FileName = "student.json"
-		dbf.DBMOS = new(StuList)
+		dbf.DBMOS = new(TeaList)
 		dbf.DBMO = new(Student)
 	default:
 	}
